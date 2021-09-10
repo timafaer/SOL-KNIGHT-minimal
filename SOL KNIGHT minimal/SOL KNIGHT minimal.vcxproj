@@ -140,31 +140,34 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Camera.cpp" />
-    <ClCompile Include="Creator.cpp" />
-    <ClCompile Include="Device.cpp" />
-    <ClCompile Include="Draw.cpp" />
-    <ClCompile Include="Events.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="ComponentStorage.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="EventManager.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameComponent.cpp" />
+    <ClCompile Include="GameEventComponent.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="object.cpp" />
+    <ClCompile Include="Object_draw.cpp" />
     <ClCompile Include="Objmanager.cpp" />
+    <ClCompile Include="Scence.cpp" />
     <ClCompile Include="Textures.cpp" />
-    <ClCompile Include="tilemap.cpp" />
-    <ClCompile Include="Update.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Camera.h" />
-    <ClInclude Include="Creator.h" />
-    <ClInclude Include="Device.h" />
-    <ClInclude Include="Draw.h" />
-    <ClInclude Include="Events.h" />
-    <ClInclude Include="input.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="ComponentStorage.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="EventManager.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameComponent.h" />
+    <ClInclude Include="GameEventComponent.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="object.h" />
+    <ClInclude Include="Object_draw.h" />
     <ClInclude Include="Objmanager.h" />
+    <ClInclude Include="Scence.h" />
     <ClInclude Include="Textures.h" />
-    <ClInclude Include="tilemap.h" />
-    <ClInclude Include="Update.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

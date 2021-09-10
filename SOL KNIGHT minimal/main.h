@@ -10,10 +10,8 @@
 #include<SFML/Audio.hpp>
 #include<SFML/Network.hpp>
 #include<SFML/OpenGL.hpp>
-#include"tilemap.h"
 #include<vector>
 //#include"Blockmap.h"
 #include<map>
 #include"Objmanager.h"
-#include"Draw.h"
 

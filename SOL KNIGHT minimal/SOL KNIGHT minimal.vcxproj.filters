@@ -13,39 +13,63 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Файлы заголовков\Objects">
+      <UniqueIdentifier>{f3211aea-40bf-4e02-847d-9fc255fd9d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\objects">
+      <UniqueIdentifier>{d0d32049-df0b-47f6-8160-eb186808728c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Components">
+      <UniqueIdentifier>{af22a464-32dc-463f-8c12-4cd81b6a5b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Components">
+      <UniqueIdentifier>{1b87a5b9-7cdf-498c-bff6-94bc81adf22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Components\EventComponent">
+      <UniqueIdentifier>{c2ab236a-80bd-4ab4-a413-f147adec9e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Components\EventComponent">
+      <UniqueIdentifier>{5cd38153-7b46-4df8-a8d1-934e567ebfe7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="object.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="tilemap.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Objmanager.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Camera.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="Textures.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Device.cpp">
+    <ClCompile Include="Game.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Events.cpp">
+    <ClCompile Include="object.cpp">
+      <Filter>Исходные файлы\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_draw.cpp">
+      <Filter>Исходные файлы\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objmanager.cpp">
+      <Filter>Исходные файлы\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Update.cpp">
+    <ClCompile Include="ComponentStorage.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Исходные файлы\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Scence.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Draw.cpp">
-      <Filter>Исходные файлы</Filter>
+    <ClCompile Include="GameComponent.cpp">
+      <Filter>Исходные файлы\Components</Filter>
     </ClCompile>
-    <ClCompile Include="Creator.cpp">
+    <ClCompile Include="GameEventComponent.cpp">
+      <Filter>Исходные файлы\Components\EventComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -53,37 +77,40 @@
     <ClInclude Include="main.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="object.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="tilemap.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Objmanager.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Camera.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="Textures.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Device.h">
+    <ClInclude Include="Game.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="input.h">
+    <ClInclude Include="object.h">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_draw.h">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objmanager.h">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Events.h">
+    <ClInclude Include="ComponentStorage.h">
+      <Filter>Файлы заголовков\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Файлы заголовков\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Scence.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Update.h">
-      <Filter>Файлы заголовков</Filter>
+    <ClInclude Include="GameComponent.h">
+      <Filter>Файлы заголовков\Components</Filter>
     </ClInclude>
-    <ClInclude Include="Draw.h">
-      <Filter>Файлы заголовков</Filter>
+    <ClInclude Include="GameEventComponent.h">
+      <Filter>Файлы заголовков\Components\EventComponent</Filter>
     </ClInclude>
-    <ClInclude Include="Creator.h">
+    <ClInclude Include="EventManager.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

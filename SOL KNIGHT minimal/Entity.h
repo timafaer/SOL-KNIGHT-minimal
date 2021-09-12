@@ -5,16 +5,17 @@ class Entity
 {
 private:
 	ComponentStorage storage;
-	Scence scence;
+	Scence& scence;
 public:
-	void add_component(Component& component);
-	void remove_component(Component& component);
+	bool add_componet(ComponentType component, unsigned id = 0);
+	bool remove_component(ComponentType component, unsigned id = 0);
+	Component& get_component(ComponentType component, unsigned id = 0);
 
-	auto get_component(Component::Type component);
+	std::vector<Component&> get_components(ComponentType component);
 
-	auto get_comonents();
+	bool have_component(ComponentType component);
 
-	//property
-	auto event_manager() { return scence.game.Get_component(Component::Type::GameEventComponent); }
+	void event_manager();	
+
 };
 
